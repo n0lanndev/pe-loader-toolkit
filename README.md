@@ -13,6 +13,7 @@ L’objectif est de démontrer un pipeline complet de transformation et d’exé
 
 ## Structure du projet
 
+```
 .
 ├── packer/
 │ └── main.cpp
@@ -33,7 +34,7 @@ L’objectif est de démontrer un pipeline complet de transformation et d’exé
 │
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## Fonctionnement
