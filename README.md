@@ -4,7 +4,7 @@
 
 Ce projet regroupe deux composants principaux :
 
-* **Packer** : lit un exécutable, applique un chiffrement XOR simple et génère un fichier `payload.h` contenant les données sous forme de tableau.
+* **Packer** : lit un exécutable, applique un chiffrement XOR simple et génère un fichier `payload.h` contenant les données sous forme de tableau d’octets en C++.
 * **Loader** : charge le payload en mémoire, le déchiffre, effectue un chargement manuel du PE et exécute son point d’entrée. Un mécanisme de vérification d’intégrité (CRC32) est également inclus.
 
 L’objectif est de démontrer un pipeline complet de transformation et d’exécution d’un binaire en mémoire.
